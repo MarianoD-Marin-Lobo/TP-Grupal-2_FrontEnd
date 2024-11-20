@@ -1,0 +1,76 @@
+/* ///// GENERAL SETTINGS /////////////////////////////////////////*/
+
+:root {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ///// BODY SETTINGS /////////////////////////////////////////*/
+
+body {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ///// HEADER SETTINGS /////////////////////////////////////////*/
+
+header {
+    background-color: rgb(8, 71, 80);
+    color: rgb(255, 255, 255);
+}
+
+header h1 {
+    padding: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* ///// SECTION SETTINGS /////////////////////////////////////////*/
+
+section {
+    background-color:  rgb(255, 255, 255);
+    color: rgb(8, 71, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+section ul li {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.nombres-integrantes {
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.nombres-integrantes li {
+    font-size: 1.8rem;
+}
+
+.datos-grupo {
+    padding: 1rem;
+}
+
+.datos-grupo li {
+    font-size: 2.5rem;
+    list-style: none;
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 2px solid gray;
+    padding: 0rem 5rem;
+}
