@@ -1,6 +1,6 @@
 /* 7. Generar los primeros N números de la sucesión de Fibonacci.
 Escribe una función que tome un número n y devuelva los primeros n números de la sucesión de Fibonacci. */
-
+//cambios en la rama-martin
 export function fibonacci(n) {
     let cantValida = true;
 
@@ -21,7 +21,7 @@ export function fibonacci(n) {
     if (cantValida) {
         console.log(`Fibonacci hasta el ${n}º término ---> ${sucesionFibonacci}`) 
     } else {
-        console.log('La cantidad de términos ingresada no es válida.');
+        console.log('La cantidad de términos ingresada no es válida.FIN');
     }
 }
 
