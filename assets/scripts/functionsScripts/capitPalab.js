@@ -16,10 +16,7 @@ export function capitalizarPalabras(cadenaOracion) {
         cadenaOracionPalabrasCapit += " " + arrayPalabras[j];        
     }
 
-    console.log(`Solución-6: Convertir la primera letra de cada palabra en mayúscula.`);
-    console.log(`Oración original ---> "${cadenaOracion}"`);
-    console.log(`Oración con palabras capitalizadas ---> ${cadenaOracionPalabrasCapit}`) 
-    console.log(`////////////////////////////////////////`); 
+    return cadenaOracionPalabrasCapit;
 }
 
 // Función auxiliar para capitalizar la inicial de cada palabra.

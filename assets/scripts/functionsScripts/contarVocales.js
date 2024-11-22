@@ -11,25 +11,37 @@ export function contarVocales(stringIntroduced) {
             case 'a':
                 vowelCounter += 1;
                 break;
+            case 'á':
+                vowelCounter += 1;
+                break;
             case 'e':
+                vowelCounter += 1;
+                break;
+            case 'é':
                 vowelCounter += 1;
                 break;
             case 'i':
                 vowelCounter += 1;
                 break;
+            case 'í':
+                vowelCounter += 1;
+                break;
             case 'o':
+                vowelCounter += 1;
+                break;
+            case 'ó':
                 vowelCounter += 1;
                 break;
             case 'u':
                 vowelCounter += 1;
                 break;
-            }       
-    } 
-
-    console.log(`Solución-1: Contar vocales en una cadena.`);
-    console.log(`Cadena ingresada ---> "${stringIntroduced}"`);
-    console.log(`Cantidad de vocales ---> ${vowelCounter}`);
-    console.log(`////////////////////////////////////////`);  
+            case 'ú':
+                vowelCounter += 1;
+                break;            
+        }
+    }       
+    
+    return vowelCounter;
 }
 
 /* Dado que en este ejercicio se nos pide contar vocales en una cadena, definimos primero un contador para almacenar esta cantidad requerida y luego un arreglo cuyos elementos se compongan de las letras de la cadena que se le introduzca por parámetro al llamar a la función desde la consola.
