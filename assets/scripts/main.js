@@ -11,7 +11,7 @@ import {invertirArray, eliminarDuplicados} from './functionsScripts/invertElemEl
 import {capitalizarPalabras} from './functionsScripts/capitPalab.js';
 // ---------
 
-// import {fibonacci} from './functionsScripts/sucesFibonacci.js';
+import {fibonacci} from './functionsScripts/sucesFibonacci.js';
 // ---------------------------------------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ printSeparador();
 // Ejercicio-6
 const cadenaPruebaCapitA = 'yo sólo sé que no sé nada';
 const cadenaPruebaCapitB = 'la caída de la casa usher';
-const cadenaPruebaCapitC = 'the last house on the left';
+const cadenaPruebaCapitC = "i'll spit on your grave";
 
 console.log(`Solución-6: Convertir la primera letra de cada palabra en mayúscula.`);
 
@@ -135,8 +135,22 @@ printSeparador();
 
 // Ejercicio-7
 
-// const cantTermFibonacci = 10;
-// console.log(`Solución-7: Generar los primeros N números de la sucesión de Fibonacci.`);
-// console.log(`Cant. de Términos requerida ---> ${cantTermFibonacci}`);
-// console.log(fibonacci(cantTermFibonacci));
-// printSeparador();
+const cantTermFibonacciA = 5;
+const cantTermFibonacciB = 8;
+const cantTermFibonacciC = 10;
+
+console.log(`Solución-7: Generar los primeros N números de la sucesión de Fibonacci.`);
+
+console.log('---> Ejemplo 1:')
+console.log(`Cant. de Términos requerida ---> ${cantTermFibonacciA}`);
+console.log(fibonacci(cantTermFibonacciA));
+
+console.log('---> Ejemplo 2:')
+console.log(`Cant. de Términos requerida ---> ${cantTermFibonacciB}`);
+console.log(fibonacci(cantTermFibonacciB));
+
+console.log('---> Ejemplo 3:')
+console.log(`Cant. de Términos requerida ---> ${cantTermFibonacciC}`);
+console.log(fibonacci(cantTermFibonacciC));
+
+printSeparador();
