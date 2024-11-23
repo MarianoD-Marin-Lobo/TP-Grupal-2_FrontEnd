@@ -143,14 +143,14 @@ console.log(`Solución-7: Generar los primeros N números de la sucesión de Fib
 
 console.log('---> Ejemplo 1:')
 console.log(`Cant. de Términos requerida ---> ${cantTermFibonacciA}`);
-console.log(fibonacci(cantTermFibonacciA));
+fibonacci(cantTermFibonacciA);
 
 console.log('---> Ejemplo 2:')
 console.log(`Cant. de Términos requerida ---> ${cantTermFibonacciB}`);
-console.log(fibonacci(cantTermFibonacciB));
+fibonacci(cantTermFibonacciB);
 
 console.log('---> Ejemplo 3:')
 console.log(`Cant. de Términos requerida ---> ${cantTermFibonacciC}`);
-console.log(fibonacci(cantTermFibonacciC));
+fibonacci(cantTermFibonacciC);
 
 printSeparador();
