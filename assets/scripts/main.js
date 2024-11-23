@@ -109,10 +109,25 @@ printSeparador();
 
 
 // Ejercicio-6
-const cadenaPruebaCapit = 'yo sólo sé que no sé nada';
+const cadenaPruebaCapitA = 'yo sólo sé que no sé nada';
+const cadenaPruebaCapitB = 'la caída de la casa usher';
+const cadenaPruebaCapitC = 'the last house on the left';
+
 console.log(`Solución-6: Convertir la primera letra de cada palabra en mayúscula.`);
-console.log(`Oración original ---> "${cadenaPruebaCapit}"`);
-console.log(`Oración con palabras capitalizadas ---> ${capitalizarPalabras(cadenaPruebaCapit)}`);
+
+console.log('---> Ejemplo 1:')
+console.log(`Oración original ---> "${cadenaPruebaCapitA}"`);
+console.log(`Oración con palabras capitalizadas ---> ${capitalizarPalabras(cadenaPruebaCapitA)}`);
+
+console.log('---> Ejemplo 2:')
+console.log(`Oración original ---> "${cadenaPruebaCapitB}"`);
+console.log(`Oración con palabras capitalizadas ---> ${capitalizarPalabras(cadenaPruebaCapitB)}`);
+
+console.log('---> Ejemplo 3:')
+console.log(`Oración original ---> "${cadenaPruebaCapitC}"`);
+console.log(`Oración con palabras capitalizadas ---> ${capitalizarPalabras(cadenaPruebaCapitC)}`);
+
+printSeparador();
 
 
 // ---------------------------------------------------------------------------------------------------
