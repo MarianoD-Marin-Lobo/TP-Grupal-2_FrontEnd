@@ -1,18 +1,11 @@
 /* 4. Invertir los elementos de un array
 Escribe una función que reciba un array y devuelva el mismo array, pero con los elementos invertidos. */
 
-function invertirArray(arrayParam) {
+export function invertirArray(arrayParam) {
     let arrayInvertido = [...arrayParam].reverse();
 
     return arrayInvertido;
 }
-
-console.log("Solución 4: Invertir Array");
-console.log(invertirArray([1, 2, 3, 4, 5])); // Resultado: [5, 4, 3, 2, 1]
-console.log(invertirArray(['a', 'b', 'c'])); // Resultado: ['c', 'b', 'a']
-console.log(invertirArray([true, false, true])); // Resultado: [true, false, true]
-console.log("///////////////");
-
 
 /*
 Soluión 4: Invertir Array
@@ -20,22 +13,19 @@ Dado que se pide mostrar el mismo array que se ingresa pero con sus elementos di
 
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 /* 5. Eliminar elementos duplicados de un array
 Escribe una función que reciba un array y elimine los elementos duplicados, devolviendo un nuevo array.*/
 
-function eliminarDuplicados(arrayConDuplicados) {
+export function eliminarDuplicados(arrayConDuplicados) {
     let setArraySinDuplicados = new Set (arrayConDuplicados);
     let arraySinDuplicados = [... setArraySinDuplicados];
 
-return arraySinDuplicados;
+    return arraySinDuplicados;
 }
-
-console.log("Solución 5: Eliminar Duplicados");
-console.log(eliminarDuplicados([1, 2, 2, 3, 4, 4, 5])); // Resultado: [1, 2, 3, 4, 5]
-console.log(eliminarDuplicados(['a', 'b', 'a', 'c'])); // Resultado: ['a', 'b', 'c']
-console.log(eliminarDuplicados([true, true, false, false])); // Resultado: [true, false]
-console.log("///////////////");
 
 /* 
 Solución 5: Eliminar Duplicados
