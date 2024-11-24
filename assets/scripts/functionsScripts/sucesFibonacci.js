@@ -19,7 +19,7 @@ export function fibonacci(n) {
     }
 
     if (cantValida) {
-        console.log(`Fibonacci hasta el ${n}º término ---> ${sucesionFibonacci}`) 
+        console.log(`Fibonacci hasta el ${n}º término -> ${sucesionFibonacci}`) 
     } else {
         console.log('La cantidad de términos ingresada no es válida.FIN');
     }
